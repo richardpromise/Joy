@@ -7,10 +7,10 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-center ">
           <motion.div
-            variants={fadeIn("right", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            // variants={fadeIn("right", 0.5)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
             <div>
@@ -24,10 +24,10 @@ const Contact = () => {
           </motion.div>
 
           <motion.form
-            variants={fadeIn("left", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            // variants={fadeIn("left", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.3 }}
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
           >
             <input
